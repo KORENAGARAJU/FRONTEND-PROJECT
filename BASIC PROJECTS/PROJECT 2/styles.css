@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.top_container{
+    display: flex;
+    justify-content: space-between;
+    width: 200vh;
+    height: auto; 
+    background-color: black;
+}
+.icon {
+    position: relative;
+    left: 20px;
+    margin-bottom: 20px;
+    display: inline;
+    font-size: 35px;
+    font-family: cursive;
+}
+.image_icon{
+    position: relative;
+    top: 25px;
+    width: 50px;
+    height:50px;
+    border-radius: 250px;
+}
+.heading_icon{
+    position: relative;
+    bottom: 10px;
+    color: white;
+    text-shadow: 1px 2px rgb(80, 95, 179) ;
+}
+.icon_items ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 800px;
+    padding-top: 30px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+    font-size: 20px;
+    list-style-type:none ;
+    color: white;
+}
+.profile_items{
+    display: flex;
+
+}
+.cart{
+    position: relative;
+    top: 25px;
+    width: 100px;
+}
+.cart img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.search_bar{
+    align-items: center;
+    width: 40vw;
+    scroll-behavior: auto;
+    height: 7vh;
+    border: 3px solid rgb(0, 0, 0);
+    position: relative;
+    left: 40%;
+    top: 15px;
+    border-radius: 15px;
+    color: red;
+    text-size-adjust: 25px;
+}
+.search_bar::placeholder{
+    font-size: 20px;
+    padding-left: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 75, 75);
+}
+input[type="text"]{
+    font-size: 25px;
+    padding-left: 15px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li:hover{
+    color: gold;
+    cursor: pointer; 
+}
+.heading_icon:hover{
+    -webkit-text-stroke: 0.5px white;
+     transition: color 3s;
+     transition-delay: color 5s;
+     color: rgb(255, 0, 0);
+     cursor:pointer;
+}
+.cart img:hover{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+@media screen and (max-width: 1250px){
+    .heading_icon{
+        display: block ;
+    }
+}
