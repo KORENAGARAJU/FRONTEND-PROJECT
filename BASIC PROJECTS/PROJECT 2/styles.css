@@ -29,10 +29,10 @@
     position: relative;
     bottom: 10px;
     color: white;
-    text-shadow: 1px 2px rgb(80, 95, 179) ;
+    text-shadow: 5px 1px 2px rgb(80, 95, 179) ;
+
 }
 .icon_items ul{
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -50,7 +50,6 @@
 }
 .profile_items{
     display: flex;
-
 }
 .cart{
     position: relative;
@@ -63,31 +62,74 @@
     border-radius: 50px;
 }
 .search_bar{
-    align-items: center;
-    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    width: 500px;
     scroll-behavior: auto;
     height: 7vh;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(200, 198, 198);
     position: relative;
-    left: 40%;
+    left: 100%;
     top: 15px;
+    background-color: black;
     border-radius: 15px;
-    color: red;
     text-size-adjust: 25px;
 }
 .search_bar::placeholder{
     font-size: 20px;
     padding-left: 4px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(75, 75, 75);
+    color: rgb(75, 75, 75);  
 }
 input[type="text"]{
     font-size: 25px;
     padding-left: 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(237, 236, 236);
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.welcome_foodies{
+    opacity: 1;
+    font-style:inherit;
+    font-weight: bold;
+    font-family:cursive;
+    font-size: 50px;
+    position:relative;
+    top: 16vh;
+    left: 14vw;
+    color: rgba(255, 210, 60, 0.854);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+    text-shadow: 4px 4px rgb(112, 107, 98);
+}
+.para_quote{
+    opacity: 1;
+    position: relative;
+    font-family: cursive;
+    font-size: 20px;
+    top: 130px;
+    left:45vh ;
+    color: rgb(191, 187, 187);
+}
+b{
+    font-weight: bolder;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+}
+.main_container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(3, 3, 3, 0.6)),url(images/271681.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
 li:hover{
     color: gold;
     cursor: pointer; 
@@ -104,6 +146,11 @@ li:hover{
     width: 50px;
     height: 50px;
     background-color: blue;
+}
+input:hover{
+    width: 510px;
+    height: 7.2vh;
+    box-shadow: 2px 2px 2px 2px rgb(158, 143, 255);
 }
 @media screen and (max-width: 1250px){
     .heading_icon{
