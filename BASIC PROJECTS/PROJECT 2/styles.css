@@ -54,7 +54,7 @@ h2{
 .top_container{
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: auto;
     height: auto; 
     background-color: black;
 }
